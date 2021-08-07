@@ -14,7 +14,7 @@ class ProductTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Color color = Colors.primaries[itemNo % Colors.primaries.length];
-    var cartList = BlocProvider.of<CartBloc>(context).items;
+    // var cartList = BlocProvider.of<CartBloc>(context).items;
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: ListTile(
